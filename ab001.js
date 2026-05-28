@@ -18,7 +18,7 @@ if (estado=== "REQUIERE SUBSANACIÓN")
 	  datosAdicionales._habilitarEditor("requerimiento_subsanacion", true);
 	}
 */
-
+console.log("Hola");
 let estado = (datosAdicionales.resultado_analisis || "").trim().toUpperCase();
 let texto,obs_tec,obs_leg;
 
@@ -114,7 +114,9 @@ if(direccion_est ===null){
 	datosAdicionales._cambiar("dir_establ_tec",txt_dir);
 }
 
+
 debugger;
+
 
 if (actuante==="A nombre propio"){
    obs_leg="en su condición de persona natural actuando "+ actuante+ "; con dirección en " +direccion_est + "; autorizado para "+autorizado ;
