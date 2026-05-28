@@ -19,6 +19,8 @@ if (estado=== "REQUIERE SUBSANACIÓN")
 	}
 */
 
+console.log("hola mundo")
+
 let estado = (datosAdicionales.resultado_analisis || "").trim().toUpperCase();
 let texto,obs_tec,obs_leg;
 
